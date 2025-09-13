@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure</title>
+    <link rel="stylesheet" href="azure_clone_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="main-head">
+        <div class="sub-head">
+          <button class="search-icon hide">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="20px"
+              height="20px"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M 10.5 1 C 8.019531 1 6 3.019531 6 5.5 C 6 6.558594 6.382813 7.523438 7 8.292969 L 2.023438 13.269531 L 2.726563 13.980469 L 7.707031 9 C 8.476563 9.617188 9.441406 10 10.5 10 C 12.980469 10 15 7.980469 15 5.5 C 15 3.019531 12.980469 1 10.5 1 Z M 10.5 2 C 12.4375 2 14 3.5625 14 5.5 C 14 7.4375 12.4375 9 10.5 9 C 8.5625 9 7 7.4375 7 5.5 C 7 3.5625 8.5625 2 10.5 2 Z"
+              ></path>
+            </svg>
+          </button>
+          <a class="logo-a hide">
+            <img
+              class="logo"
+              src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png"
+            />
+          </a>
+          <div class="header-main">
+            <div class="header-container">
+              <a class="logo-a main">
+                <img
+                  class="logo"
+                  src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png"
+                />
+              </a>
+              <div class="azure-head"><span>Azure</span></div>
+              <div class="azure-sub-head">
+                <div class="azure-sub exp"><a>Explore</a></div>
+                <div class="sep-blocks">
+                  <div class="azure-sub one">
+                    <a id="prod">Products</a
+                    ><img
+                      src="./azure_image/dropdown.png"
+                      alt=""
+                      style="width: 11px; height: 11px"
+                    />
+                  </div>
+                  <div class="azure-sub one" id="hide2">
+                    <a id="solu">Solutions</a
+                    ><img
+                      src="./azure_image/dropdown.png"
+                      alt=""
+                      style="width: 11px; height: 11px"
+                    />
+                  </div>
+                  <div class="azure-sub one" id="hide3">
+                    <a>Pricing</a
+                    ><img
+                      src="./azure_image/dropdown.png"
+                      alt=""
+                      style="width: 11px; height: 11px; margin-left: 2px"
+                    />
+                  </div>
+                  <div class="azure-sub one" id="hide4">
+                    <a>Partners</a
+                    ><img
+                      src="./azure_image/dropdown.png"
+                      alt=""
+                      style="width: 11px; height: 11px; margin-left: 2px"
+                    />
+                  </div>
+                  <div class="azure-sub one" id="hide5">
+                    <a>Resources</a
+                    ><img
+                      src="./azure_image/dropdown.png"
+                      alt=""
+                      style="width: 11px; height: 11px; margin-left: 2px"
+                    />
+                  </div>
+                </div>
+                <div class="azure-sub one" id="hide1">
+                  <a>More</a
+                  ><img
+                    src="./azure_image/dropdown.png"
+                    alt=""
+                    style="width: 11px; height: 11px"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="button-div">
+              <button class="btn-head">
+                <span id="hide-span1">Search</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M 10.5 1 C 8.019531 1 6 3.019531 6 5.5 C 6 6.558594 6.382813 7.523438 7 8.292969 L 2.023438 13.269531 L 2.726563 13.980469 L 7.707031 9 C 8.476563 9.617188 9.441406 10 10.5 10 C 12.980469 10 15 7.980469 15 5.5 C 15 3.019531 12.980469 1 10.5 1 Z M 10.5 2 C 12.4375 2 14 3.5625 14 5.5 C 14 7.4375 12.4375 9 10.5 9 C 8.5625 9 7 7.4375 7 5.5 C 7 3.5625 8.5625 2 10.5 2 Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="second-head">
+                <div class="azure-sub one" id="learn">
+                  <a>Learn</a>
+                </div>
+                <div class="azure-sub one" id="support">
+                  <a>Support</a>
+                </div>
+                <div class="azure-sub one" id="sale">
+                  <a>Contact Sales</a>
+                </div>
+                <div class="azure-sub one" id="box1">
+                  <a>Get started with Azure</a>
+                </div>
+                <div class="azure-sub one" id="box2">
+                  <a>Sign in</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="sec1">
+      <div class="class11">
+        <button>
+          Azure<img
+            src="./azure_image/dropdown.png"
+            alt=""
+            style="width: 17px; height: 18px; padding-top: 2px"
+          />
+        </button>
+      </div>
+    </section>
+    <section class="main-section">
+      <section class="sec2">
+        <picture>
+          <source
+            srcset="
+              https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-hero-image?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=666&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain,
+              https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-hero-image?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=3200&amp;hei=1332&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain 2x
+            "
+            media="(min-width: 1400px)"
+          />
+          <source
+            srcset="
+              https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-hero-image?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=666&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain,
+              https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-hero-image?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=3200&amp;hei=1332&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain 2x
+            "
+            media="(min-width: 1084px)"
+          />
+          <source
+            srcset="
+              https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-hero-image?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=666&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+            "
+            media="(min-width: 860px)"
+          />
+          <source
+            srcset="
+              https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-hero-image?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=666&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+            "
+            media="(min-width: 540px)"
+          />
+          <img
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-hero-image?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=666&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain"
+            class=" "
+            alt=""
+            loading="lazy"
+          />
+        </picture>
+      </section>
+      <section class="sec3">
+        <div class="class31">
+          <div class="class32">
+            <div class="class33">
+              <div class="img-class1">
+                <div class="img-class2">
+                  <img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-hero-image-568x320?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2000&hei=1125&qlt=100&fmt=png-alpha&fit=constrain"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="content1">
+                <div class="content2">
+                  <div class="text1">AZURE. LIMITLESS INNOVATION.</div>
+                  <div class="text2"><h1>Your data, your rules</h1></div>
+                  <div class="text3">
+                    <div id="para1">
+                      Build, deploy, and scale AI-powered apps and agents faster
+                      with your data flowing across a connected software
+                      lifecycle. Pay as you go or try Azure free for up to 30
+                      days. There’s no upfront commitment—cancel anytime.
+                    </div>
+                  </div>
+                  <div class="btn-main">
+                    <div class="btn-sub">
+                      <div class="btn one">
+                        <span>Get started with Azure</span>
+                      </div>
+                      <div class="btn two">
+                        <span>Explore Azure AI Foundry</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- SECTION 4 DESIGN -->
+    <section class="sec4">
+      <div class="sec4-main">
+        <div class="sec4-sub">
+          <div class="sec4-text">
+            <div class="txt1 first">
+              Featured news
+              <div class="border"></div>
+            </div>
+            <div class="txt2 hide">
+              <svg
+                class="blue-chev"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M11.9999 13.9394L17.4696 8.46973L18.5303 9.53039L11.9999 16.0607L5.46961 9.53039L6.53027 8.46973L11.9999 13.9394Z"
+                    fill=" rgb(0, 103, 184)"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="txt1 hide">Solutions</div>
+            <div class="txt1 hide">Products and services</div>
+            <div class="txt1 hide">Resources by role</div>
+            <div class="txt1 hide">Customer stories</div>
+          </div>
+        </div>
+        <div class="sec4-box">
+          <span class="txt3">Get started with Azure</span>
+        </div>
+      </div>
+      <div class="hori-block"></div>
+    </section>
+    <section class="sec5">
+      <div class="sec5-main">
+        <div class="sec5-sub">
+          <div class="sec5-part">
+            <div class="txt-content">
+              <div class="part1">
+                <div class="p1-img">
+                  <img
+                    src="https://azure.microsoft.com/content/dam/microsoft/final/en-us/microsoft-brand/icons/AI-icon-white.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="main-txt">
+                  <h2 class="sub-txt txt1">AI-powered assistant</h2>
+                  <span class="sub-txt txt2">Created with Copilot Studio</span>
+                </div>
+              </div>
+              <div>
+                <p class="sub-txt txt3">
+                  Need help finding a product or solution? Try the AI-powered
+                  assistant.
+                </p>
+              </div>
+            </div>
+            <div class="txt-box">
+              <form>
+                <div class="fpart1-main">
+                  <div class="fpart1">
+                    <input
+                      type="search"
+                      placeholder="Ask a question about Azure."
+                    />
+                    <div class="fsvg">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            d="M10.5004 11.9998H5.00043M4.91577 12.2913L2.58085 19.266C2.39742 19.8139 2.3057 20.0879 2.37152 20.2566C2.42868 20.4031 2.55144 20.5142 2.70292 20.5565C2.87736 20.6052 3.14083 20.4866 3.66776 20.2495L20.3792 12.7293C20.8936 12.4979 21.1507 12.3822 21.2302 12.2214C21.2993 12.0817 21.2993 11.9179 21.2302 11.7782C21.1507 11.6174 20.8936 11.5017 20.3792 11.2703L3.66193 3.74751C3.13659 3.51111 2.87392 3.39291 2.69966 3.4414C2.54832 3.48351 2.42556 3.59429 2.36821 3.74054C2.30216 3.90893 2.3929 4.18231 2.57437 4.72906L4.91642 11.7853C4.94759 11.8792 4.96317 11.9262 4.96933 11.9742C4.97479 12.0168 4.97473 12.0599 4.96916 12.1025C4.96289 12.1506 4.94718 12.1975 4.91577 12.2913Z"
+                            stroke="rgb(205, 202, 202)"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="hr-block"></div>
+                </div>
+                <div class="fpart2">
+                  <div class="fbtn">
+                    <button class="btn btn1">How can I try Azure?</button>
+                  </div>
+                  <div class="fbtn">
+                    <button class="btn btn2">
+                      How will Azure AI Foundry help my business?
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec6">
+      <div class="sec6-main">
+        <div class="main-content">
+          <div class="head-main">
+            <div class="head-sub">
+              <div class="sec6-txt1">FEATURED NEWS</div>
+              <div class="sec6-txt2">Discover what’s happening on Azure</div>
+            </div>
+          </div>
+          <div class="blog-main">
+            <div class="blog-sub">
+              <div class="blogs">
+                <div class="blog one">
+                  <div class="blog-content">
+                    <div class="blog-img">
+                      <img
+                        src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/105650-featured-news-image-1-416x178?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=428&qlt=100&fit=constrain"
+                      />
+                    </div>
+                    <div class="blog-card">
+                      <div class="card-content">
+                        <div class="card-head">
+                          <div class="card-txt1">
+                            <span>
+                              GPT-5 in Azure AI Foundry: The future of AI apps
+                              and agents starts here</span
+                            >
+                          </div>
+                        </div>
+                        <div class="card-txt2">
+                          Azure AI Foundry now offers the full suite of GPT-5
+                          models—bringing high performance, frontier reasoning,
+                          and cost efficiency together on Azure’s platform for
+                          your AI apps and agents.
+                        </div>
+                      </div>
+                      <div class="blog-btn">
+                        <div class="cbtn">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            version="1.1"
+                            id="Layer_1"
+                            viewBox="0 0 512.005 512.005"
+                            xml:space="preserve"
+                          >
+                            <g>
+                              <g>
+                                <path
+                                  d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="btn-span">Read the blog</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+                <div class="blog two">
+                  <div class="blog-content">
+                    <div class="blog-img">
+                      <img
+                        src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Desktop-3UpCard-FeaturedNews-Media-Card1-416x178?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=832&hei=357&qlt=100&fmt=png-alpha&fit=constrain"
+                      />
+                    </div>
+                    <div class="blog-card">
+                      <div class="card-content">
+                        <div class="card-head">
+                          <div class="card-txt1">
+                            <span> What’s new in app modernization</span>
+                          </div>
+                        </div>
+                        <div class="card-txt2">
+                          Explore app modernization capabilities in GitHub
+                          Copilot and get expert guidance to accelerate AI and
+                          cloud-native development—enhancing your agility,
+                          scalability, resilience, and ROI.
+                        </div>
+                      </div>
+                      <div class="blog-btn">
+                        <div class="cbtn">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            version="1.1"
+                            id="Layer_1"
+                            viewBox="0 0 512.005 512.005"
+                            xml:space="preserve"
+                          >
+                            <g>
+                              <g>
+                                <path
+                                  d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="btn-span">Learn more</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+                <div class="blog three">
+                  <div class="blog-content">
+                    <div class="blog-img">
+                      <img
+                        src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-3UpCard-FeaturedNews-Media-Card3?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=832&hei=357&qlt=100&fmt=png-alpha&fit=constrain"
+                      />
+                    </div>
+                    <div class="blog-card">
+                      <div class="card-content">
+                        <div class="card-head">
+                          <div class="card-txt1">
+                            <span> Introducing—Azure Accelerate</span>
+                          </div>
+                        </div>
+                        <div class="card-txt2">
+                          Learn about&nbsp;the new offering
+                          that&nbsp;provides&nbsp;expert guidance, investments,
+                          and comprehensive resources to reduce financial
+                          barriers and support successful deployment.
+                        </div>
+                      </div>
+                      <div class="blog-btn">
+                        <div class="cbtn">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            version="1.1"
+                            id="Layer_1"
+                            viewBox="0 0 512.005 512.005"
+                            xml:space="preserve"
+                          >
+                            <g>
+                              <g>
+                                <path
+                                  d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <span class="btn-span">Read the blog</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7 -->
+
+    <section class="sec7">
+      <div class="sec7-main">
+        <div class="sec7-sub">
+          <div class="sec7-headmain">
+            <div class="sec7-headsub">
+              <div class="sec7-txt1">SOLUTIONS</div>
+              <div class="sec7-txt2">
+                <h2>Find solutions for putting your ideas into action</h2>
+              </div>
+            </div>
+          </div>
+          <div class="sec7-mainc">
+            <div class="sec7-subc">
+              <div class="sec7-content">
+                <div class="scroll-part">
+                  <div class="part1">
+                    <div class="part1-sub">
+                      <button class="scroll-btn btn1">
+                        <span>Featured solutions</span>
+                      </button>
+                      <button class="scroll-btn">
+                        <span>Cloud migration</span>
+                      </button>
+                      <button class="scroll-btn">
+                        <span>Data transformation</span>
+                      </button>
+                      <button class="scroll-btn">
+                        <span>App development</span>
+                      </button>
+                      <button class="scroll-btn"><span>AI</span></button>
+                    </div>
+                  </div>
+                  <div class="scroll-arrow">
+                    <button class="arrow-btn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Layer_1"
+                        viewBox="0 0 512.005 512.005"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="txt-content">
+                  <div class="txt-content-main">
+                    <div class="content-main">
+                      <div class="contone">
+                        <div class="content one">
+                          <div class="content1 one">
+                            <div class="cont">
+                              <h3>
+                                <span
+                                  >Top 25 Azure announcements&nbsp;at Microsoft
+                                  Build&nbsp;2025</span
+                                >
+                              </h3>
+                            </div>
+                            <div class="svg-div">
+                              <svg
+                                class="special"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g
+                                  id="SVGRepo_tracerCarrier"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                ></g>
+                                <g id="SVGRepo_iconCarrier">
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M11.9999 13.9394L17.4696 8.46973L18.5303 9.53039L11.9999 16.0607L5.46961 9.53039L6.53027 8.46973L11.9999 13.9394Z"
+                                    fill="rgb(14, 23, 38)"
+                                  ></path>
+                                </g>
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="sub-text">
+                            All the Azure news&nbsp;you&nbsp;don’t&nbsp;want to
+                            miss—&nbsp;spanning Azure AI Foundry, Azure
+                            infrastructure, Azure app services, Azure databases,
+                            Microsoft Fabric, and our GitHub family.
+                          </div>
+                          <div class="link1">
+                            <a href=""
+                              ><span class="link-text"
+                                >See top solutions from Build</span
+                              ></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content two">
+                        <div class="content1">
+                          <div class="cont">
+                            <h3>
+                              <span>Application and data modernization</span>
+                            </h3>
+                          </div>
+                          <div class="svg-div">
+                            <svg
+                              class=""
+                              viewBox="0 0 24 24"
+                              width="20px"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                              <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              ></g>
+                              <g id="SVGRepo_iconCarrier">
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M11.9999 13.9394L17.4696 8.46973L18.5303 9.53039L11.9999 16.0607L5.46961 9.53039L6.53027 8.46973L11.9999 13.9394Z"
+                                  fill="rgb(14, 23, 38)"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content two">
+                        <div class="content1 pd">
+                          <div class="cont">
+                            <h3><span>DevOps</span></h3>
+                          </div>
+                          <div class="svg-div">
+                            <svg
+                              class=""
+                              viewBox="0 0 24 24"
+                              width="20px"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                              <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              ></g>
+                              <g id="SVGRepo_iconCarrier">
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M11.9999 13.9394L17.4696 8.46973L18.5303 9.53039L11.9999 16.0607L5.46961 9.53039L6.53027 8.46973L11.9999 13.9394Z"
+                                  fill="rgb(14, 23, 38)"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content two">
+                        <div class="content1 pd">
+                          <div class="cont">
+                            <h3><span>Azure cloud security</span></h3>
+                          </div>
+                          <div class="svg-div">
+                            <svg
+                              class=""
+                              viewBox="0 0 24 24"
+                              width="20px"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                              <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              ></g>
+                              <g id="SVGRepo_iconCarrier">
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M11.9999 13.9394L17.4696 8.46973L18.5303 9.53039L11.9999 16.0607L5.46961 9.53039L6.53027 8.46973L11.9999 13.9394Z"
+                                  fill="rgb(14, 23, 38)"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content two">
+                        <div class="content1 pd">
+                          <div class="cont">
+                            <h3><span>Azure&nbsp;Accelerate</span></h3>
+                          </div>
+                          <div class="svg-div">
+                            <svg
+                              class=""
+                              viewBox="0 0 24 24"
+                              width="20px"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                              <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              ></g>
+                              <g id="SVGRepo_iconCarrier">
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M11.9999 13.9394L17.4696 8.46973L18.5303 9.53039L11.9999 16.0607L5.46961 9.53039L6.53027 8.46973L11.9999 13.9394Z"
+                                  fill="rgb(14, 23, 38)"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="video-container">
+                      <div class="vid-div">
+                        <img
+                          id="imgs"
+                          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-desktop-vertical-accordion-solutions-media-tab-1-accordion-1-800x513?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=642&qlt=100&fit=constrain"
+                          alt=""
+                        />
+                        <div class="video-svg">
+                          <i class="fa-solid fa-play"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-btn">
+                    <div class="cbtn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Layer_1"
+                        viewBox="0 0 512.005 512.005"
+                        xml:space="preserve"
+                        fill="white"
+                        stroke-width="20"
+                        stroke="white"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="btn-span">View all solutions (40+)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 8  -->
+    <section class="sec8">
+      <div class="sec8-main">
+        <div class="sec8-sub">
+          <div class="sec8-headmain">
+            <div class="sec8-headsub">
+              <div class="sec8-txt1">PRODUCTS AND SERVICES</div>
+              <div class="sec8-txt2">
+                <h2>Explore tools for bringing your vision to life</h2>
+              </div>
+            </div>
+          </div>
+          <div class="sec8-mainc">
+            <div class="sec8-subc">
+              <div class="sec8-container">
+                <div class="scroll-part">
+                  <div class="part1">
+                    <div class="part1-sub">
+                      <button class="scroll-btn btn1">
+                        <span>Featured</span>
+                      </button>
+                      <button class="scroll-btn">
+                        <span>AI + machine learning</span>
+                      </button>
+                      <button class="scroll-btn">
+                        <span>Compute</span>
+                      </button>
+                      <button class="scroll-btn">
+                        <span>Containers</span>
+                      </button>
+                      <button class="scroll-btn">
+                        <span>Hybrid + multicloud</span>
+                      </button>
+                      <button class="scroll-btn">
+                        <span>IoT</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="scroll-arrow">
+                    <button class="arrow-btn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Layer_1"
+                        viewBox="0 0 512.005 512.005"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="content-main">
+                  <div class="content-sub">
+                    <div class="block-content">
+                      <div class="blocks">
+                        <div class="main-block">
+                          <div class="mainb">
+                            <picture>
+                              <source
+                                srcset="
+                                  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-promo-updated-new?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=1284&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+                                "
+                                media="(min-width: 1400px)"
+                              />
+                              <source
+                                srcset="
+                                  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-promo-updated-new?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=1284&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+                                "
+                                media="(min-width: 1084px)"
+                              />
+                              <source
+                                srcset="
+                                  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-vp3-card-grid-product-and-services-promo-card-featured-848X364?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=642&amp;hei=279&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain,
+                                  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-vp3-card-grid-product-and-services-promo-card-featured-848X364?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1284&amp;hei=558&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain 2x
+                                "
+                                media="(min-width: 860px)"
+                              />
+                              <source
+                                srcset="
+                                  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-mobile-card-grid-product-and-services-promo-card-featured-328x266?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=548&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain
+                                "
+                                media="(min-width: 540px)"
+                              />
+                              <img
+                                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-mobile-card-grid-product-and-services-promo-card-featured-328x266?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=548&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain"
+                                class=" "
+                                alt=""
+                                loading="lazy"
+                              />
+                            </picture>
+                          </div>
+                          <div class="mainb-text">
+                            <div class="head"><h3>Azure AI Foundry</h3></div>
+                            <div class="text">
+                              <div class="text1">
+                                Build, evaluate, and deploy generative AI
+                                solutions and custom agents.
+                              </div>
+                              <div class="txt-btn">
+                                <span>Explore the product</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-blocks">
+                          <div class="sblock-main">
+                            <div class="blk">
+                              <div class="cont">
+                                <div class="img-cont">
+                                  <img
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/1022443-card-grid-products-card-4-azure-ai-model-catalog-24x24?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=48&amp;hei=48&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain"
+                                    class=" "
+                                    alt=""
+                                    loading="lazy"
+                                    data-oc="oc177e"
+                                    id="image-oc177e"
+                                  />
+                                </div>
+                                <div class="blk-contents">
+                                  <div class="blk-head">
+                                    <h4>
+                                      <span
+                                        >Azure AI Foundry Agent Service</span
+                                      >
+                                    </h4>
+                                  </div>
+                                  <div class="para1">
+                                    Securely design, deploy, and scale AI agents
+                                    with ease.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block-link">
+                                <a><span>Explore the product</span></a>
+                              </div>
+                            </div>
+                          </div>
+                          <!---->
+                          <div class="sblock-main">
+                            <div class="blk">
+                              <div class="cont">
+                                <div class="img-cont">
+                                  <img
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/1025082-card-grid-product-icons-card-2-git-hub-copilot-24x24?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=24&hei=24&qlt=100&fmt=png-alpha&fit=constrain"
+                                    class=" "
+                                    alt=""
+                                    loading="lazy"
+                                    data-oc="oc177e"
+                                    id="image-oc177e"
+                                  />
+                                </div>
+                                <div class="blk-contents">
+                                  <div class="blk-head">
+                                    <h4>
+                                      <span>GitHub Copilot</span>
+                                    </h4>
+                                  </div>
+                                  <div class="para1">
+                                    Increase software development velocity and
+                                    inspire continuous innovation.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block-link">
+                                <a><span>Explore the product</span></a>
+                              </div>
+                            </div>
+                          </div>
+                          <!---->
+                          <div class="sblock-main">
+                            <div class="blk">
+                              <div class="cont">
+                                <div class="img-cont">
+                                  <img
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/1062775-Desktop-CardGrid-Products-Icons-Tab1-Card3-AzureAppService24x24?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fmt=png-alpha&fit=constrain"
+                                    class=" "
+                                    alt=""
+                                    loading="lazy"
+                                    data-oc="oc177e"
+                                    id="image-oc177e"
+                                  />
+                                </div>
+                                <div class="blk-contents">
+                                  <div class="blk-head">
+                                    <h4>
+                                      <span>Azure&nbsp;App Service</span>
+                                    </h4>
+                                  </div>
+                                  <div class="para1">
+                                    Quickly create powerful cloud apps for web
+                                    and mobile.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block-link">
+                                <a><span>Explore the product</span></a>
+                              </div>
+                            </div>
+                          </div>
+                          <!---->
+                          <div class="sblock-main">
+                            <div class="blk">
+                              <div class="cont">
+                                <div class="img-cont">
+                                  <img
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/1062775-Desktop-CardGrid-Products-Icons-Tab1-Card4-AzureAPIManagement-24x24?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fit=constrain"
+                                    class=" "
+                                    alt=""
+                                    loading="lazy"
+                                    data-oc="oc177e"
+                                    id="image-oc177e"
+                                  />
+                                </div>
+                                <div class="blk-contents">
+                                  <div class="blk-head">
+                                    <h4>
+                                      <span>Azure&nbsp;API Management</span>
+                                    </h4>
+                                  </div>
+                                  <div class="para1">
+                                    Deliver AI-ready APIs with built-in
+                                    governance, security, analytics, and Azure
+                                    scalability.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block-link">
+                                <a><span>Explore the product</span></a>
+                              </div>
+                            </div>
+                          </div>
+                          <!---->
+                          <div class="sblock-main">
+                            <div class="blk">
+                              <div class="cont">
+                                <div class="img-cont">
+                                  <img
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/1062775-Desktop-CardGrid-Products-Icons-Tab1-Card5-AzureKubernetesService-24x24?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=24&hei=24&qlt=100&fit=constrain"
+                                    class=" "
+                                    alt=""
+                                    loading="lazy"
+                                    data-oc="oc177e"
+                                    id="image-oc177e"
+                                  />
+                                </div>
+                                <div class="blk-contents">
+                                  <div class="blk-head">
+                                    <h4>
+                                      <span
+                                        >Azure Kubernetes Service (AKS)</span
+                                      >
+                                    </h4>
+                                  </div>
+                                  <div class="para1">
+                                    Build and scale apps with managed
+                                    Kubernetes.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block-link">
+                                <a><span>Explore the product</span></a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="sblock-main">
+                            <div class="blk">
+                              <div class="cont">
+                                <div class="img-cont">
+                                  <img
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/1062775-Desktop-CardGrid-Products-Icons-Tab1-Card6-AzureDatabases-24x24?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100&fit=constrain"
+                                    class=" "
+                                    alt=""
+                                    loading="lazy"
+                                    data-oc="oc177e"
+                                    id="image-oc177e"
+                                  />
+                                </div>
+                                <div class="blk-contents">
+                                  <div class="blk-head">
+                                    <h4>
+                                      <span class="d-block h5"
+                                        >Azure databases</span
+                                      >
+                                    </h4>
+                                  </div>
+                                  <div class="para1">
+                                    Build AI-ready apps with intelligent cloud
+                                    databases.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="block-link">
+                                <a><span>Explore the product</span></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-btn">
+              <div class="cbtn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  version="1.1"
+                  id="Layer_1"
+                  viewBox="0 0 512.005 512.005"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <span class="btn-span">See all products (200+)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec9">
+      <div class="sec9-main">
+        <div class="sec9-sub">
+          <div class="main-container">
+            <div class="sub-container">
+              <div class="content">
+                <div class="img-container">
+                  <img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/371220-gartner-accouncement-new-image?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1269&amp;hei=984&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain"
+                    class=" "
+                    alt="Gartner Logo"
+                  />
+                </div>
+                <div class="text-container">
+                  <div></div>
+                  <div class="text-main">
+                    <div class="heading">
+                      <div></div>
+                      <div>
+                        <h2>
+                          <span
+                            >See why Microsoft was named a Leader by
+                            Gartner®</span
+                          >
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="parag">
+                      Discover why Microsoft was named a Leader and positioned
+                      furthest to the right for Completeness of Vision in the
+                      2024 Magic Quadrant™ for Strategic Cloud Platform Services
+                      (SCPS).
+                    </div>
+                  </div>
+                  <div class="txt-btn">
+                    <span>Read the blog</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec10">
+      <div class="sec10-main">
+        <div class="sec10-head">
+          <div class="head-sub">
+            <div class="top-head">RESOURCES BY ROLE</div>
+            <div class="mid-head"><h2>Transform the way you work</h2></div>
+          </div>
+          <div class="main-cont">
+            <div class="list-part">
+              <div class="list-cont-main">
+                <div class="list-cont">
+                  <div class="list-itm">
+                    <div class="itm one">
+                      <span class="sp">IT professionals</span>
+                    </div>
+                    <div class="itm"><span class="sp">Developers</span></div>
+                    <div class="itm"><span class="sp">Data analysts</span></div>
+                    <div class="itm">
+                      <span class="sp">Business leaders</span>
+                    </div>
+                    <div class="itm"><span class="sp">Startups</span></div>
+                    <div class="itm last"><span class="sp">Students</span></div>
+                  </div>
+                </div>
+                <div class="itm arrow">
+                  <button class="arrow en">
+                    <svg
+                      width="35px"
+                      height="35px"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5 12H19M19 12L12 5M19 12L12 19"
+                        stroke="rgb(0, 66, 117)"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="arrow-part">
+                <button class="arrow dis">
+                  <svg
+                    width="35px"
+                    height="35px"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 12H5M5 12L12 19M5 12L12 5"
+                      stroke="rgb(202, 222, 237)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                <button class="arrow en">
+                  <svg
+                    width="35px"
+                    height="35px"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5 12H19M19 12L12 5M19 12L12 19"
+                      stroke="rgb(0, 66, 117)"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="sub-cont">
+                <div class="full-cont">
+                  <div class="text-head">
+                    <h3>
+                      <span
+                        >Optimize your infrastructure with popular Azure
+                        solutions and services.</span
+                      >
+                    </h3>
+                  </div>
+                  <div class="blog-btn">
+                    <div class="cbtn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Layer_1"
+                        viewBox="0 0 512.005 512.005"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="btn-span">Explore migration solutions</span>
+                  </div>
+                </div>
+                <div class="img-cont">
+                  <div class="image">
+                    <img
+                      src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Resources-tab1-ITProfessionals-4x?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1664&amp;hei=936&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain"
+                      class=" "
+                      alt="A person and another person looking at a computer screen"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec11">
+      <div class="global-img">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/30450-azure-global-infrastructure-background-1600x368?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=368&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain"
+          class=" "
+          alt=""
+          loading="lazy"
+        />
+      </div>
+      <div class="global-main">
+        <div class="global-sub">
+          <div class="gl-content">
+            <div class="gl-heading"><h2>Azure global infrastructure</h2></div>
+            <div class="parag">
+              <div class="gl-parag">
+                Go beyond the limits of on-premises datacenters with more
+                regions than any other provider.
+              </div>
+            </div>
+            <div class="gl-btn">
+              <a href=""><span>Explore the globe</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec12">
+      <div class="sec12-main">
+        <div class="sec12-sub">
+          <div class="head-content">
+            <div class="contents">
+              <div class="head1">customer stories</div>
+              <div class="head2">
+                <h2>See how customers are innovating with Azure</h2>
+              </div>
+            </div>
+            <div class="btn-container">
+              <div class="btn">
+                <a href=""><span>View all stories</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="box-content">
+            <div class="main-box">
+              <div class="img-box">
+                <img
+                  src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-CaseStudy-CustomerStories-Media-Fujitsu-656x587?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=664&amp;hei=547&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain"
+                />
+              </div>
+              <div class="content-box">
+                <div class="content1">
+                  <div class="sub1">
+                    <div class="sub-img">
+                      <img
+                        src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-CaseStudy-CustomerStories-Logos-Fujitsu-135x58?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=174&amp;hei=74&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain"
+                        class=" "
+                        alt="Fujitsu logo"
+                        width="174"
+                        height="74"
+                      />
+                    </div>
+                    <div class="sub-cont">
+                      <span
+                        >Fujitsu boosted productivity by 67% and enabled teams
+                        to focus on customer engagement by using Azure AI
+                        Foundry Agent Service to automate sales proposal
+                        creation.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="sub2">
+                    <div class="link-container">
+                      <div class="head-text">
+                        <h3><span>Products</span></h3>
+                      </div>
+                      <div class="links">
+                        <div class="link-set">
+                          <div class="set1">
+                            <div class="link">
+                              <div class="icon-box">
+                                <img
+                                  src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1030149-related-products-icon-card3-24x24?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=24&amp;hei=22&amp;qlt=100"
+                                  style="width: 20px; height: 20px"
+                                />
+                              </div>
+                              <div class="txt-link">
+                                <a
+                                  href="https://azure.microsoft.com/en-us/products/ai-foundry/"
+                                  >Azure AI Foundry</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                          <div class="set1 sec">
+                            <div class="link">
+                              <div class="icon-box">
+                                <img
+                                  src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1030149-desktop-customer-stories-icon-azure-ai-agent-service-16x16?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=24&amp;hei=24&amp;qlt=100"
+                                />
+                              </div>
+                              <div class="txt-link">
+                                <a
+                                  href="https://azure.microsoft.com/en-us/products/ai-agent-service/"
+                                  tabindex="0"
+                                  >Azure AI&nbsp;Foundry&nbsp;Agent
+                                  Service&nbsp;</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="set2">
+                            <div class="set1 thi">
+                              <div class="link">
+                                <div class="icon-box">
+                                  <img
+                                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/1025082-card-grid-product-icons-card-6-azure-ai-search-24x24?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=24&amp;hei=24&amp;qlt=100"
+                                  />
+                                </div>
+                                <div class="txt-link">
+                                  <a
+                                    href="https://azure.microsoft.com/en-us/products/ai-services/ai-search"
+                                    tabindex="0"
+                                    >Azure AI Search</a
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="txt-btn">
+                      <span>Read the story</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="txt-btn">
+                  <span>Read the story</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="arrow-part">
+            <button class="arrow dis">
+              <svg
+                width="35px"
+                height="35px"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 12H5M5 12L12 19M5 12L12 5"
+                  stroke="rgb(202, 222, 237)"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <button class="arrow en">
+              <svg
+                width="35px"
+                height="35px"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12H19M19 12L12 5M19 12L12 19"
+                  stroke="rgb(0, 66, 117)"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div class="logos">
+            <div class="logo one">
+              <div class="logo-box one">
+                <div class="logo-img">
+                  <img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-CaseStudy-CustomerStories-Logos-Fujitsu-135x58?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=271&amp;hei=116&amp;qlt=100&amp;fit=constrain"
+                    class=" "
+                    alt="Fujitsu logo"
+                  />
+                </div>
+              </div>
+              <span class="border"></span>
+            </div>
+
+            <div class="logo">
+              <div class="logo-box two">
+                <div class="logo-img">
+                  <img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1033504-desktop-casestudy-customerstories-logos-terra-135x58?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=271&amp;hei=116&amp;qlt=100&amp;fit=constrain"
+                    class=" "
+                    alt="Terra Mater logo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="logo">
+              <div class="logo-box two">
+                <div class="logo-img">
+                  <img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/351994-CustomerStories-Logo-Siemens-135x58?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=200&amp;hei=100&amp;qlt=100&amp;fit=constrain"
+                    class=" "
+                    alt="Siemens logo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="logo three">
+              <div class="logo-box three">
+                <div class="logo-img">
+                  <img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1033504-desktop-casestudy-customerstories-logos-makeawish-135x58?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=348&amp;hei=150&amp;qlt=100&amp;fit=constrain"
+                    class=" "
+                    alt="Make A Wish logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec13">
+      <div class="sec13-main">
+        <div class="sec13-sub">
+          <div class="head-txt">
+            <h2>Take the next step</h2>
+          </div>
+          <div class="part-main">
+            <div class="part-sub">
+              <div class="parts">
+                <div class="part">
+                  <div class="head-part">
+                    <div class="heading">
+                      <div class="head-text">
+                        <h3>
+                          <span
+                            >Choose the Azure account that’s right for you</span
+                          >
+                        </h3>
+                      </div>
+                      <div class="head-para">
+                        Pay as you go or try Azure for free for up to 30 days.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-btn">
+                    <div class="cbtn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Layer_1"
+                        viewBox="0 0 512.005 512.005"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="btn-span">Get started with Azure</span>
+                  </div>
+                </div>
+              </div>
+              <div class="parts">
+                <div class="part">
+                  <div class="head-part">
+                    <div class="heading sec">
+                      <div class="head-text">
+                        <h3>
+                          <span>Connect with a sales specialist</span>
+                        </h3>
+                      </div>
+                      <div class="head-para">
+                        Chat with or call a sales specialist for personalized
+                        guidance.<br />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-btn">
+                    <div class="cbtn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Layer_1"
+                        viewBox="0 0 512.005 512.005"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="btn-span">Get in Touch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="parts">
+                <div class="part">
+                  <div class="head-part">
+                    <div class="heading">
+                      <div class="head-text">
+                        <h3>
+                          <span>New to Azure? Learn at your own pace</span>
+                        </h3>
+                      </div>
+                      <div class="head-para">
+                        Learn cloud computing basics with self-paced modules on
+                        Microsoft Learn.<br />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-btn">
+                    <div class="cbtn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Layer_1"
+                        viewBox="0 0 512.005 512.005"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M388.418,240.923L153.751,6.256c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165L343.17,256.005    L123.586,475.589c-8.341,8.341-8.341,21.824,0,30.165c4.16,4.16,9.621,6.251,15.083,6.251c5.461,0,10.923-2.091,15.083-6.251    l234.667-234.667C396.759,262.747,396.759,249.264,388.418,240.923z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="btn-span">Get Started</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec14">
+      <div class="sec14-main">
+        <div class="sec14-sub">
+          <div class="container">
+            <div class="sub-con">
+              <a href=""
+                ><span>
+                  <img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/acom_social_icon_azure"
+                    class="img-fluid mr-2"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
+                </span>
+                Get the Azure mobile app
+              </a>
+            </div>
+            <div class="icons">
+              <div class="sub-icons">
+                <a href=""
+                  ><img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/acom-icons-x-black-white-24x24?scl=1"
+                    class=""
+                    alt="Twitter"
+                    title="&nbsp;"
+                    width="24"
+                    height="24"
+                /></a>
+                <a href=""
+                  ><img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/acom-icons-instagram-black-white-24x24?scl=1"
+                    class=""
+                    alt="Instagram"
+                    title="&nbsp;"
+                    width="24"
+                    height="24"
+                /></a>
+                <a href=""
+                  ><img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/acom-icons-linkedIn-black-white-24x24?scl=1"
+                    class=""
+                    alt="LinkedIn"
+                    title="&nbsp;"
+                    width="24"
+                    height="24"
+                /></a>
+                <a href=""
+                  ><img
+                    src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/acom-icons-youtube-black-white-24x24?scl=1"
+                    class=""
+                    alt="YouTube"
+                    title="&nbsp;"
+                    width="24"
+                    height="24"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-main1">
+          <div class="footer-sub">
+            <div class="f1-cont one">
+              <div class="head1">Explore Azure</div>
+              <div class="lists">
+                <a>What is Azure?</a>
+                <a>Get started with Azure</a>
+                <a>Global infrastructure</a>
+                <a>Datacenter regions</a>
+                <a>Trust your cloud</a>
+                <a>Azure Essentials</a>
+                <a>Customer stories</a>
+              </div>
+            </div>
+            <div class="f1-cont" id="product">
+              <div class="head1">Products and pricing</div>
+              <div class="lists">
+                <a>Products</a>
+                <a>Azure pricing</a>
+                <a>Free Azure services</a>
+                <a>Flexible purchase options</a>
+                <a>FinOps on Azure</a>
+                <a>Optimize your costs</a>
+              </div>
+            </div>
+            <div class="f1-cont" id="support">
+              <div class="head1">Solutions and support</div>
+              <div class="lists">
+                <a>Solutions</a>
+                <a>Resources for accelerating growth</a>
+                <a>Solution architectures</a>
+                <a>Support</a>
+                <a>Azure demo and live Q&A</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-sub">
+            <div class="f1-cont" id="partners">
+              <div class="head1">Partners</div>
+              <div class="lists">
+                <a>Azure Marketplace</a>
+                <a>Find a partner</a>
+                <a>Join ISV Success</a>
+              </div>
+            </div>
+            <div class="f1-cont" id="res">
+              <div class="head1">Resources</div>
+              <div class="lists">
+                <a>Documentation</a>
+                <a>Blog</a>
+                <a>Developer resources</a>
+                <a>Students</a>
+                <a>Events and Webinars</a>
+                <a>Analyst reports, white papers, and e-books</a>
+                <a>Videos</a>
+              </div>
+            </div>
+            <div class="f1-cont">
+              <div class="head1">Cloud computing</div>
+              <div class="lists">
+                <a>What is cloud computing?</a>
+                <a>What is multicloud?</a>
+                <a>What is machine learning?</a>
+                <a>What is deep learning?</a>
+                <a>What is AIaaS?</a>
+                <a>What are LLMs?</a>
+                <a>What are SLMs?</a>
+                <a>What is RAG?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-main2">
+          <div class="sub-main">
+            <div class="sub1">
+              <a class="li1"
+                ><svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#636363"
+                      d="M8 0c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zM13.2 5.3c0.4 0 0.7 0.3 1.1 0.3-0.3 0.4-1.6 0.4-2-0.1 0.3-0.1 0.5-0.2 0.9-0.2zM1 8c0-0.4 0-0.8 0.1-1.3 0.1 0 0.2 0.1 0.3 0.1 0 0 0.1 0.1 0.1 0.2 0 0.3 0.3 0.5 0.5 0.5 0.8 0.1 1.1 0.8 1.8 1 0.2 0.1 0.1 0.3 0 0.5-0.6 0.8-0.1 1.4 0.4 1.9 0.5 0.4 0.5 0.8 0.6 1.4 0 0.7 0.1 1.5 0.4 2.2-2.5-1.2-4.2-3.6-4.2-6.5zM8 15c-0.7 0-1.5-0.1-2.1-0.3-0.1-0.2-0.1-0.4 0-0.6 0.4-0.8 0.8-1.5 1.3-2.2 0.2-0.2 0.4-0.4 0.4-0.7 0-0.2 0.1-0.5 0.2-0.7 0.3-0.5 0.2-0.8-0.2-0.9-0.8-0.2-1.2-0.9-1.8-1.2s-1.2-0.5-1.7-0.2c-0.2 0.1-0.5 0.2-0.5-0.1 0-0.4-0.5-0.7-0.4-1.1-0.1 0-0.2 0-0.3 0.1s-0.2 0.2-0.4 0.1c-0.2-0.2-0.1-0.4-0.1-0.6 0.1-0.2 0.2-0.3 0.4-0.4 0.4-0.1 0.8-0.1 1 0.4 0.3-0.9 0.9-1.4 1.5-1.8 0 0 0.8-0.7 0.9-0.7s0.2 0.2 0.4 0.3c0.2 0 0.3 0 0.3-0.2 0.1-0.5-0.2-1.1-0.6-1.2 0-0.1 0.1-0.1 0.1-0.1 0.3-0.1 0.7-0.3 0.6-0.6 0-0.4-0.4-0.6-0.8-0.6-0.2 0-0.4 0-0.6 0.1-0.4 0.2-0.9 0.4-1.5 0.4 1.1-0.8 2.5-1.2 3.9-1.2 0.3 0 0.5 0 0.8 0-0.6 0.1-1.2 0.3-1.6 0.5 0.6 0.1 0.7 0.4 0.5 0.9-0.1 0.2 0 0.4 0.2 0.5s0.4 0.1 0.5-0.1c0.2-0.3 0.6-0.4 0.9-0.5 0.4-0.1 0.7-0.3 1-0.7 0-0.1 0.1-0.1 0.2-0.2 0.6 0.2 1.2 0.6 1.8 1-0.1 0-0.1 0.1-0.2 0.1-0.2 0.2-0.5 0.3-0.2 0.7 0.1 0.2 0 0.3-0.1 0.4-0.2 0.1-0.3 0-0.4-0.1s-0.1-0.3-0.4-0.3c-0.1 0.2-0.4 0.3-0.4 0.6 0.5 0 0.4 0.4 0.5 0.7-0.6 0.1-0.8 0.4-0.5 0.9 0.1 0.2-0.1 0.3-0.2 0.4-0.4 0.6-0.8 1-0.8 1.7s0.5 1.4 1.3 1.3c0.9-0.1 0.9-0.1 1.2 0.7 0 0.1 0.1 0.2 0.1 0.3 0.1 0.2 0.2 0.4 0.1 0.6-0.3 0.8 0.1 1.4 0.4 2 0.1 0.2 0.2 0.3 0.3 0.4-1.3 1.4-3 2.2-5 2.2z"
+                    ></path>
+                  </g>
+                </svg>
+
+                <span>English (United States)</span></a
+              >
+
+              <a
+                class="li2"
+                href="https://aka.ms/yourcaliforniaprivacychoices"
+                class="c-uhff-link c-uhff-ccpa"
+              >
+                <svg
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 14"
+                  xml:space="preserve"
+                  height="16"
+                  width="43"
+                >
+                  <path
+                    d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+                    style="fill-rule: evenodd; clip-rule: evenodd; fill: #fff"
+                  />
+                  <path
+                    d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+                    style="fill-rule: evenodd; clip-rule: evenodd; fill: #06f"
+                  />
+                  <path
+                    d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+                    style="fill: #fff"
+                  />
+                  <path
+                    d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+                    style="fill: #06f"
+                  />
+                </svg>
+                <span>Your Privacy Choices</span>
+              </a>
+              <a class="li3">
+                <span>Consumer Health Privacy</span>
+              </a>
+            </div>
+            <div class="sub2">
+              <a href=""><span>Sitemap</span></a>
+              <a href=""><span>Contact Microsoft</span></a>
+              <a href=""><span>Privacy</span></a>
+              <a href=""><span>Terms of use</span></a>
+              <a href=""><span>Trademarks</span></a>
+              <a href=""><span>Safety & eco</span></a>
+              <a href=""><span>Recycling</span></a>
+              <a href=""><span>About our ads</span></a>
+              <a href=""><span>© Microsoft 2025</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
